@@ -5,11 +5,44 @@ This repository is for IT/computer science students in primary or secondary scho
 ``` python
 # List of current projects
 [
+'Text_To_Symbols.py',
 'Turtle_Shape.py'
 ]
 ```
 
 ## Projects
+
+#### Text_To_Symbols.py
+
+Using python's pyfiglet module (not an in-built module) we can convert ASCII (normal) text and render it in ASCII art fonts!
+
+1) Install the Pyfiglet module
+
+``` python
+pip install pyfiglet
+```
+
+2) Replace 'TEXT' with any text you wish to render in ASCII art. The font can also be changed to any of the pyfiglet fonts.
+
+``` python
+def main():
+    print(figlet_format('TEXT', font='standard'))
+```
+
+3) To list all pyfiglet fonts, enter the following code into the terminal:
+
+``` console
+C:\Users\[USER]\PycharmProjects\pythonProject>pyfiglet -l
+
+Output:
+1943____    
+3-d
+3x5
+4x4_offr    
+5lineoblique
+5x7
+...    
+```
 
 #### Turtle_Shape.py
 
