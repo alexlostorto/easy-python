@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 REACTIVITY_SERIES = {
     'Potassium',
     'Sodium',
@@ -25,3 +26,32 @@ REACTIVITY_SERIES = {
     'Gold',
     'Platinum'
 }
+=======
+REACTIVITY_SERIES = {
+    'Potassium',
+    'Sodium',
+    'Lithium',
+    'Barium',
+    'Strontium',
+    'Calcium',
+    'Magnesium',
+    'Aluminium',
+    'Manganese',
+    'Zinc',
+    'Chromium',
+    'Iron',
+    'Cadmium',
+    'Cobalt',
+    'Nickel',
+    'Tin',
+    'Lead',
+    'Hydrogen',
+    'Antimony',
+    'Bismuth',
+    'Copper',
+    'Mercury',
+    'Silver',
+    'Gold',
+    'Platinum'
+}
+>>>>>>> 1d7630152fbafac444a7907cc4fa32ce61e486f8
