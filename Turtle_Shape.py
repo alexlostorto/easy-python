@@ -1,6 +1,10 @@
 from turtle import *
 
 
+# Variables
+SPEED = 10  # The turtle's speed {1: slowest, 10: fastest}
+
+
 def main():
     # Ask user the number of sides
     n = input("Number of sides: ")
@@ -11,6 +15,9 @@ def main():
 
     exteriorAngle = 360 / n
     print(f"Exterior angle: {exteriorAngle}")
+
+    speed(SPEED)
+
     for i in range(n):
         forward(100)
         right(exteriorAngle)
